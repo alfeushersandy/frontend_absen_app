@@ -1,0 +1,17 @@
+.card {
+    height: 550px;
+}
+
+#menus {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:767px) {
+    #menus {
+        margin-left: 180px;
+    }
+    .card {
+        height: 600px;
+    }
+}
